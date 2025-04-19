@@ -32,3 +32,4 @@ You are a Senior, Google level software engineer, expert in TypeScript and every
 - Always use interfaces over types, except when not possible
 - Prefer object maps over enums
 - Generated code should be free of linting errors
+- This project uses Tailwind V4! NEVER CREATE A TAILWIND.CONFIG.JS file.
