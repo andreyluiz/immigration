@@ -1,0 +1,192 @@
+{
+  "home": {
+    "nav": {
+      "title": "European Immigration",
+      "services": "Services",
+      "about": "About Us",
+      "testimonials": "Testimonials",
+      "contact": "Contact",
+      "get_started": "Get Started"
+    },
+    "hero": {
+      "title_1": "Your European Dream",
+      "title_2": "Starts Here",
+      "description": "Professional immigration mentorship for Brazilians looking to start a new life in Europe. Our expert team guides you through every step of your journey.",
+      "get_started": "Get Started",
+      "learn_more": "Learn More",
+      "successful_immigrations": "Over {value, number}+ successful immigrations"
+    },
+    "services": {
+      "title": "Our Immigration Services",
+      "description": "Comprehensive support for every step of your European immigration journey.",
+      "list": [
+        {
+          "icon": "mdi:passport",
+          "title": "Visa & Documentation",
+          "description": "We guide you through the complex visa application process and help prepare all necessary documentation."
+        },
+        {
+          "icon": "mdi:certificate",
+          "title": "Education Equivalence",
+          "description": "Get assistance with validating your Brazilian degrees and certificates for European recognition."
+        },
+        {
+          "icon": "mdi:briefcase",
+          "title": "Job Search Support",
+          "description": "Receive personalized guidance on finding employment opportunities that match your skills and experience."
+        },
+        {
+          "icon": "mdi:home",
+          "title": "Housing Assistance",
+          "description": "Learn how to find accommodation and navigate the housing market in your destination country."
+        },
+        {
+          "icon": "mdi:translate",
+          "title": "Language Solutions",
+          "description": "Access resources and strategies for overcoming language barriers in your new European home."
+        },
+        {
+          "icon": "mdi:account-group",
+          "title": "Cultural Integration",
+          "description": "Prepare for cultural differences and learn how to adapt smoothly to your new environment."
+        }
+      ]
+    },
+    "about": {
+      "title": "About Our Team",
+      "description_1": "Founded by Andrey Luiz, our team consists of immigration specialists, legal advisors, and cultural integration experts who have personally experienced the journey from Brazil to Europe.",
+      "description_2": "We understand the challenges, complexities, and emotional aspects of relocating to a new country, and our mission is to make this transition as smooth as possible for our clients.",
+      "description_3": "Our combined experience spans over 15 years of helping Brazilians successfully establish new lives across various European countries including Portugal, Spain, Germany, Italy, and France.",
+      "years_experience": "Years Experience",
+      "clients_served": "Clients Served",
+      "success_rate": "Success Rate",
+      "team_members": "Team Members"
+    },
+    "testimonials": {
+      "title": "Success Stories",
+      "description": "Hear from Brazilians who successfully started their new lives in Europe with our help.",
+      "list": [
+        {
+          "quote": "The guidance I received throughout my immigration process was invaluable. From visa applications to finding my first apartment in Lisbon, the team was always there to help.",
+          "author": "Carlos Silva",
+          "role": "Software Engineer",
+          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=CS",
+          "country": "Now in Portugal"
+        },
+        {
+          "quote": "As a healthcare professional, I was worried about getting my credentials recognized in Germany. Thanks to this mentorship, the process was much smoother than I expected.",
+          "author": "Ana Oliveira",
+          "role": "Registered Nurse",
+          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=AO",
+          "country": "Now in Germany"
+        },
+        {
+          "quote": "Moving my entire family to Spain seemed overwhelming at first, but with expert guidance on schools, housing, and cultural integration, we now feel right at home.",
+          "author": "Rafael Mendes",
+          "role": "Business Owner",
+          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=RM",
+          "country": "Now in Spain"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Ready to start your European immigration journey? Contact us to schedule a free consultation with our experts.",
+      "form": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your.email@example.com"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us about your immigration goals..."
+        },
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success_message": {
+          "title": "Thank you for reaching out!",
+          "description": "We'll get back to you as soon as possible.",
+          "action": "Send another message"
+        },
+        "error_message": {
+          "title": "An error occurred",
+          "description": "Please try again later or contact us by email or phone."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "How long does the immigration process typically take?",
+          "answer": "The timeline varies depending on the destination country and visa type, but most clients complete their move within 6-12 months."
+        },
+        {
+          "question": "Do I need to speak the local language?",
+          "answer": "While helpful, it's not always required. We can guide you through language requirements and provide resources for learning."
+        },
+        {
+          "question": "What are your service fees?",
+          "answer": "Our fees vary based on the complexity of your case and services needed. We provide a clear breakdown during your free consultation."
+        }
+      ]
+    },
+    "footer": {
+      "title": "European Immigration Mentorship",
+      "description": "Professional mentorship for Brazilians looking to immigrate to Europe. We provide personalized guidance for your immigration journey.",
+      "quick_links": {
+        "title": "Quick Links",
+        "links": [
+          {
+            "title": "Our Services",
+            "href": "#services"
+          },
+          {
+            "title": "About Us",
+            "href": "#about"
+          },
+          {
+            "title": "Success Stories",
+            "href": "#testimonials"
+          },
+          {
+            "title": "Contact Us",
+            "href": "#contact"
+          }
+        ]
+      },
+      "social": {
+        "title": "Connect With Us",
+        "links": [
+          {
+            "title": "Instagram",
+            "href": "#instagram",
+            "icon": "mdi:instagram"
+          },
+          {
+            "title": "Facebook",
+            "href": "#facebook",
+            "icon": "mdi:facebook"
+          },
+          {
+            "title": "LinkedIn",
+            "href": "#linkedin",
+            "icon": "mdi:linkedin"
+          },
+          {
+            "title": "WhatsApp",
+            "href": "#whatsapp",
+            "icon": "mdi:whatsapp"
+          }
+        ],
+        "email": "Email",
+        "phone": "Phone"
+      },
+      "copyright": "European Immigration Mentorship. All rights reserved."
+    }
+  }
+}

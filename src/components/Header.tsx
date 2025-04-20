@@ -1,26 +1,25 @@
 import { Button } from "@/components/ui/Button";
 import { Logo } from "@/components/ui/Logo";
 import { NavLink } from "@/components/ui/NavLink";
+import { useTranslations } from "next-intl";
 
-export interface HeaderProps {
-  title?: string;
-}
+export function Header() {
+  const t = useTranslations("home.nav");
 
-export function Header({ title = "European Immigration" }: HeaderProps) {
   return (
     <header className="w-full py-4 px-4 md:px-8 bg-background border-b">
       <div className="container mx-auto flex justify-between items-center">
-        <Logo title={title} />
+        <Logo title={t("title")} />
 
         <nav className="hidden md:flex items-center gap-6">
-          <NavLink href="#services">Services</NavLink>
-          <NavLink href="#about">About Us</NavLink>
-          <NavLink href="#testimonials">Testimonials</NavLink>
-          <NavLink href="#contact">Contact</NavLink>
+          <NavLink href="#services">{t("services")}</NavLink>
+          <NavLink href="#about">{t("about")}</NavLink>
+          <NavLink href="#testimonials">{t("testimonials")}</NavLink>
+          <NavLink href="#contact">{t("contact")}</NavLink>
         </nav>
 
         <Button asChild>
-          <a href="#contact">Get Started</a>
+          <a href="#contact">{t("get_started")}</a>
         </Button>
       </div>
     </header>

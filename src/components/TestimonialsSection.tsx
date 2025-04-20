@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import { useMessages, useTranslations } from "next-intl";
 import Image from "next/image";
 
 interface TestimonialCardProps {
@@ -50,44 +51,18 @@ function TestimonialCard({
 }
 
 export function TestimonialsSection() {
-  const testimonials = [
-    {
-      quote:
-        "The guidance I received throughout my immigration process was invaluable. From visa applications to finding my first apartment in Lisbon, the team was always there to help.",
-      author: "Carlos Silva",
-      role: "Software Engineer",
-      image: "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=CS",
-      country: "Now in Portugal",
-    },
-    {
-      quote:
-        "As a healthcare professional, I was worried about getting my credentials recognized in Germany. Thanks to this mentorship, the process was much smoother than I expected.",
-      author: "Ana Oliveira",
-      role: "Registered Nurse",
-      image: "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=AO",
-      country: "Now in Germany",
-    },
-    {
-      quote:
-        "Moving my entire family to Spain seemed overwhelming at first, but with expert guidance on schools, housing, and cultural integration, we now feel right at home.",
-      author: "Rafael Mendes",
-      role: "Business Owner",
-      image: "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=RM",
-      country: "Now in Spain",
-    },
-  ];
+  const t = useTranslations("home.testimonials");
+  const messages = useMessages();
+
+  const testimonials = messages.home.testimonials
+    .list as TestimonialCardProps[];
 
   return (
     <section id="testimonials" className="py-16 md:py-24 bg-muted">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Success Stories
-          </h2>
-          <p className="text-lg text-foreground/80">
-            Hear from Brazilians who successfully started their new lives in
-            Europe with our help.
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("title")}</h2>
+          <p className="text-lg text-foreground/80">{t("description")}</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 md:gap-8">

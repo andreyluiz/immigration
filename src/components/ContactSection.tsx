@@ -1,15 +1,26 @@
 import { Icon } from "@iconify/react";
+import { useMessages, useTranslations } from "next-intl";
 import { ContactForm } from "./ContactForm";
 
 export function ContactSection() {
+  const t = useTranslations("home");
+
+  const messages = useMessages();
+
+  const faq = messages.home.faq.questions as {
+    question: string;
+    answer: string;
+  }[];
+
   return (
     <section id="contact" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            {t("contact.title")}
+          </h2>
           <p className="text-lg text-foreground/80">
-            Ready to start your European immigration journey? Contact us to
-            schedule a free consultation with our experts.
+            {t("contact.description")}
           </p>
         </div>
 
@@ -21,40 +32,18 @@ export function ContactSection() {
                   icon="mdi:frequently-asked-questions"
                   className="text-primary"
                 />
-                Frequently Asked Questions
+                {t("faq.title")}
               </h3>
 
               <div className="space-y-4">
-                <div>
-                  <p className="font-medium">
-                    How long does the immigration process typically take?
-                  </p>
-                  <p className="text-sm text-foreground/70 mt-1">
-                    The timeline varies depending on the destination country and
-                    visa type, but most clients complete their move within 6-12
-                    months.
-                  </p>
-                </div>
-
-                <div>
-                  <p className="font-medium">
-                    Do I need to speak the local language?
-                  </p>
-                  <p className="text-sm text-foreground/70 mt-1">
-                    While helpful, it&apos;s not always required. We can guide
-                    you through language requirements and provide resources for
-                    learning.
-                  </p>
-                </div>
-
-                <div>
-                  <p className="font-medium">What are your service fees?</p>
-                  <p className="text-sm text-foreground/70 mt-1">
-                    Our fees vary based on the complexity of your case and
-                    services needed. We provide a clear breakdown during your
-                    free consultation.
-                  </p>
-                </div>
+                {faq.map((question) => (
+                  <div key={question.question}>
+                    <p className="font-medium">{question.question}</p>
+                    <p className="text-sm text-foreground/70 mt-1">
+                      {question.answer}
+                    </p>
+                  </div>
+                ))}
               </div>
             </div>
 

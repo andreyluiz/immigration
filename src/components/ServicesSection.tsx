@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import { useMessages, useTranslations } from "next-intl";
 
 interface ServiceCardProps {
   icon: string;
@@ -17,60 +18,21 @@ function ServiceCard({ icon, title, description }: ServiceCardProps) {
 }
 
 export function ServicesSection() {
-  const services = [
-    {
-      icon: "mdi:passport",
-      title: "Visa & Documentation",
-      description:
-        "We guide you through the complex visa application process and help prepare all necessary documentation.",
-    },
-    {
-      icon: "mdi:certificate",
-      title: "Education Equivalence",
-      description:
-        "Get assistance with validating your Brazilian degrees and certificates for European recognition.",
-    },
-    {
-      icon: "mdi:briefcase",
-      title: "Job Search Support",
-      description:
-        "Receive personalized guidance on finding employment opportunities that match your skills and experience.",
-    },
-    {
-      icon: "mdi:home",
-      title: "Housing Assistance",
-      description:
-        "Learn how to find accommodation and navigate the housing market in your destination country.",
-    },
-    {
-      icon: "mdi:translate",
-      title: "Language Solutions",
-      description:
-        "Access resources and strategies for overcoming language barriers in your new European home.",
-    },
-    {
-      icon: "mdi:account-group",
-      title: "Cultural Integration",
-      description:
-        "Prepare for cultural differences and learn how to adapt smoothly to your new environment.",
-    },
-  ];
+  const t = useTranslations("home.services");
+  const messages = useMessages();
+
+  const servicesList = messages.home.services.list as ServiceCardProps[];
 
   return (
     <section id="services" className="py-16 md:py-24 bg-muted">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our Immigration Services
-          </h2>
-          <p className="text-lg text-foreground/80">
-            Comprehensive support for every step of your European immigration
-            journey.
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("title")}</h2>
+          <p className="text-lg text-foreground/80">{t("description")}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {services.map((service, index) => (
+          {servicesList.map((service: ServiceCardProps, index: number) => (
             <ServiceCard
               key={index}
               icon={service.icon}
