@@ -70,21 +70,21 @@
           "quote": "The guidance I received throughout my immigration process was invaluable. From visa applications to finding my first apartment in Lisbon, the team was always there to help.",
           "author": "Carlos Silva",
           "role": "Software Engineer",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=CS",
+          "image": "/clients/carlos-silva.webp",
           "country": "Now in Portugal"
         },
         {
           "quote": "As a healthcare professional, I was worried about getting my credentials recognized in Germany. Thanks to this mentorship, the process was much smoother than I expected.",
           "author": "Ana Oliveira",
           "role": "Registered Nurse",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=AO",
+          "image": "/clients/ana-oliveira.webp",
           "country": "Now in Germany"
         },
         {
           "quote": "Moving my entire family to Spain seemed overwhelming at first, but with expert guidance on schools, housing, and cultural integration, we now feel right at home.",
           "author": "Rafael Mendes",
           "role": "Business Owner",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=RM",
+          "image": "/clients/rafael-mendes.webp",
           "country": "Now in Spain"
         }
       ]

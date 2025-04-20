@@ -70,21 +70,21 @@
           "quote": "Les conseils que j'ai reçus tout au long de mon processus d'immigration ont été inestimables. Des demandes de visa à la recherche de mon premier appartement à Lisbonne, l'équipe était toujours là pour m'aider.",
           "author": "Carlos Silva",
           "role": "Ingénieur Logiciel",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=CS",
+          "image": "/clients/carlos-silva.webp",
           "country": "Maintenant au Portugal"
         },
         {
           "quote": "En tant que professionnel de la santé, j'étais inquiet de la reconnaissance de mes qualifications en Allemagne. Grâce à ce mentorat, le processus a été beaucoup plus simple que prévu.",
           "author": "Ana Oliveira",
           "role": "Infirmière Diplômée",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=AO",
+          "image": "/clients/ana-oliveira.webp",
           "country": "Maintenant en Allemagne"
         },
         {
           "quote": "Déménager toute ma famille en Espagne semblait accablant au début, mais avec des conseils d'experts sur les écoles, le logement et l'intégration culturelle, nous nous sentons maintenant comme chez nous.",
           "author": "Rafael Mendes",
           "role": "Propriétaire d'Entreprise",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=RM",
+          "image": "/clients/rafael-mendes.webp",
           "country": "Maintenant en Espagne"
         }
       ]

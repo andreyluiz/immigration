@@ -36,13 +36,7 @@ export function Logo({
 }: LogoProps) {
   return (
     <div className={cn(logoVariants({ size, variant, className }))}>
-      <Image
-        src="https://placehold.co/40x40/0047ab/FFFFFF/png?text=IM"
-        alt="Logo"
-        width={imageSize}
-        height={imageSize}
-        className="rounded-md"
-      />
+      <Image src="/logo.webp" alt="Logo" width={imageSize} height={imageSize} />
       <span className="text-xl font-bold">{title}</span>
     </div>
   );

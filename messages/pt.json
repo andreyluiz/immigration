@@ -70,21 +70,21 @@
           "quote": "A orientação que recebi durante todo o meu processo de imigração foi inestimável. Desde as solicitações de visto até encontrar meu primeiro apartamento em Lisboa, a equipe sempre esteve lá para ajudar.",
           "author": "Carlos Silva",
           "role": "Engenheiro de Software",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=CS",
+          "image": "/clients/carlos-silva.webp",
           "country": "Agora em Portugal"
         },
         {
           "quote": "Como profissional da área da saúde, eu estava preocupada com o reconhecimento das minhas credenciais na Alemanha. Graças a esta mentoria, o processo foi muito mais suave do que eu esperava.",
           "author": "Ana Oliveira",
           "role": "Enfermeira",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=AO",
+          "image": "/clients/ana-oliveira.webp",
           "country": "Agora na Alemanha"
         },
         {
           "quote": "Mudar toda a minha família para a Espanha parecia assustador no início, mas com orientação especializada sobre escolas, moradia e integração cultural, agora nos sentimos em casa.",
           "author": "Rafael Mendes",
           "role": "Empresário",
-          "image": "https://placehold.co/300x300/1a1a1a/FFFFFF/png?text=RM",
+          "image": "/clients/rafael-mendes.webp",
           "country": "Agora na Espanha"
         }
       ]

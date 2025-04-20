@@ -40,7 +40,7 @@ export function ContactForm() {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto rounded-lg bg-background shadow-sm p-6 border">
+    <div className="w-full mx-auto rounded-lg bg-background shadow-sm p-6 border">
       <h2 className="text-2xl font-bold mb-6 text-center">{t("title")}</h2>
 
       {formState === "success" ? (

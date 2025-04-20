@@ -10,8 +10,8 @@ export function HeroSection() {
     <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-br from-background to-muted">
       <div className="absolute inset-0 z-0 opacity-10">
         <Image
-          src="https://placehold.co/1920x1080/0047ab/FFFFFF/png?text=EU"
-          alt="Background Pattern"
+          src="/paris.webp"
+          alt="Paris Eiffel Tower"
           fill
           className="object-cover"
           priority
@@ -55,7 +55,7 @@ export function HeroSection() {
 
           <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="https://placehold.co/600x800/1a1a1a/FFFFFF/png?text=IMMIGRATION+MENTORSHIP"
+              src="/passport.webp"
               alt="Immigration Mentorship"
               fill
               className="object-cover"

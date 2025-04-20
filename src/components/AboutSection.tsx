@@ -10,7 +10,7 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
             <Image
-              src="https://placehold.co/600x800/0047ab/FFFFFF/png?text=OUR+TEAM"
+              src="/team.webp"
               alt="Our Team"
               fill
               className="object-cover"
