@@ -16,17 +16,13 @@ export const metadata: Metadata = {
     "Professional mentorship for Brazilians looking to immigrate to Europe. Get personalized guidance on the entire immigration process.",
 };
 
-interface RootLayoutProps {
-  children: React.ReactNode;
-  params: {
-    locale: string;
-  };
-}
-
 export default async function RootLayout({
   children,
   params,
-}: RootLayoutProps) {
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
