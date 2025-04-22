@@ -24,7 +24,7 @@ export function ServicesSection() {
   const servicesList = messages.home.services.list as ServiceCardProps[];
 
   return (
-    <section id="services" className="py-16 md:py-24 bg-muted">
+    <section id="services" className="py-16 md:py-24 bg-muted md:px-0 px-4">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">{t("title")}</h2>

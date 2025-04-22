@@ -7,7 +7,7 @@ export function HeroSection() {
   const t = useTranslations("home.hero");
 
   return (
-    <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-br from-background to-muted">
+    <section className="relative overflow-hidden py-16 md:py-24 bg-gradient-to-br from-background to-muted md:px-0 px-4">
       <div className="absolute inset-0 z-0 opacity-10">
         <Image
           src="/paris.webp"
@@ -32,7 +32,7 @@ export function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
               <Link
-                href="#contact"
+                href="#contact-form"
                 className="px-6 py-3 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors text-center font-medium"
               >
                 {t("get_started")}

@@ -18,8 +18,8 @@ export function Header() {
           <NavLink href="#contact">{t("contact")}</NavLink>
         </nav>
 
-        <Button asChild>
-          <a href="#contact">{t("get_started")}</a>
+        <Button asChild className="hidden md:block">
+          <a href="#contact-form">{t("get_started")}</a>
         </Button>
       </div>
     </header>

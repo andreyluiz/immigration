@@ -20,7 +20,7 @@ export function Footer() {
   }[];
 
   return (
-    <footer className="w-full py-8 bg-muted mt-12">
+    <footer className="w-full py-8 bg-muted mt-12 md:px-0 px-4">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>

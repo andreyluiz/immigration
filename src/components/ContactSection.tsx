@@ -13,7 +13,7 @@ export function ContactSection() {
   }[];
 
   return (
-    <section id="contact" className="py-16 md:py-24 bg-background">
+    <section id="contact" className="py-16 md:py-24 bg-background md:px-0 px-4">
       <div className="container mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -59,7 +59,7 @@ export function ContactSection() {
             </div>
           </div>
 
-          <div>
+          <div id="contact-form">
             <ContactForm />
           </div>
         </div>

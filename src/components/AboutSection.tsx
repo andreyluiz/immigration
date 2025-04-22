@@ -5,7 +5,7 @@ export function AboutSection() {
   const t = useTranslations("home.about");
 
   return (
-    <section id="about" className="py-16 md:py-24 bg-background">
+    <section id="about" className="py-16 md:py-24 bg-background md:px-0 px-4">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl order-2 md:order-1">

@@ -67,6 +67,7 @@ export function ContactForm() {
             label={t("form.name.label")}
             placeholder={t("form.name.placeholder")}
             error={errors.name?.message}
+            autoComplete="name"
             formField
           />
 
@@ -74,6 +75,7 @@ export function ContactForm() {
             {...register("email")}
             label={t("form.email.label")}
             type="email"
+            autoComplete="email"
             placeholder={t("form.email.placeholder")}
             error={errors.email?.message}
             formField
@@ -85,6 +87,7 @@ export function ContactForm() {
             placeholder={t("form.message.placeholder")}
             error={errors.message?.message}
             formField
+            autoComplete="off"
           />
 
           <Form.Submit asChild>
