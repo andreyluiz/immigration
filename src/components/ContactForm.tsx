@@ -4,9 +4,20 @@ import { Alert } from "@/components/ui/Alert";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { TextArea } from "@/components/ui/TextArea";
+import { zodResolver } from "@hookform/resolvers/zod";
 import * as Form from "@radix-ui/react-form";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+
+const contactFormSchema = z.object({
+  name: z.string().min(1, "Name is required"),
+  email: z.string().email("Invalid email address"),
+  message: z.string().min(1, "Message is required"),
+});
+
+type ContactFormData = z.infer<typeof contactFormSchema>;
 
 export function ContactForm() {
   const [formState, setFormState] = useState<
@@ -15,24 +26,24 @@ export function ContactForm() {
 
   const t = useTranslations("home.contact");
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm<ContactFormData>({
+    resolver: zodResolver(contactFormSchema),
+  });
+
+  const onSubmit = async (data: ContactFormData) => {
     setFormState("submitting");
 
-    // Form data extraction
-    const formData = new FormData(event.currentTarget);
-    const data = {
-      name: formData.get("name"),
-      email: formData.get("email"),
-      message: formData.get("message"),
-    };
-
-    // In a real app, you would send this data to your API
     try {
       // Simulating API call
       await new Promise((resolve) => setTimeout(resolve, 1000));
       console.log("Form submitted:", data);
       setFormState("success");
+      reset();
     } catch (error) {
       console.error("Error submitting form:", error);
       setFormState("error");
@@ -54,29 +65,29 @@ export function ContactForm() {
           }}
         />
       ) : (
-        <Form.Root onSubmit={handleSubmit} className="space-y-4">
+        <Form.Root onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <Input
-            name="name"
+            {...register("name")}
             label={t("form.name.label")}
             placeholder={t("form.name.placeholder")}
-            required
+            error={errors.name?.message}
             formField
           />
 
           <Input
-            name="email"
+            {...register("email")}
             label={t("form.email.label")}
             type="email"
             placeholder={t("form.email.placeholder")}
-            required
+            error={errors.email?.message}
             formField
           />
 
           <TextArea
-            name="message"
+            {...register("message")}
             label={t("form.message.label")}
             placeholder={t("form.message.placeholder")}
-            required
+            error={errors.message?.message}
             formField
           />
 
