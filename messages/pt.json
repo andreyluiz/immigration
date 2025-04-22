@@ -110,7 +110,7 @@
         "success_message": {
           "title": "Obrigado por entrar em contato!",
           "description": "Retornaremos o mais rápido possível.",
-          "action": "Enviar outro mensagem"
+          "action": "Enviar outra mensagem"
         },
         "error_message": {
           "title": "Ocorreu um erro",

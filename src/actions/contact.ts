@@ -1,6 +1,7 @@
 "use server";
 
 import { connectToDatabase } from "@/lib/db";
+import { sendContactFormEmail, sendContactResponseEmail } from "@/lib/email";
 import { Contact } from "@/models/Contact";
 import { contactFormSchema, type ContactFormData } from "@/schemas/contact";
 
@@ -16,16 +17,37 @@ export async function submitContactForm(data: ContactFormData) {
     const contact = await Contact.create({
       name: validatedData.name,
       email: validatedData.email,
-      message: validatedData.message,
+      message: validatedData.message.trim(),
     });
+
+    // Send email to user
+    const responseResult = await sendContactResponseEmail({
+      name: validatedData.name,
+      email: validatedData.email,
+    });
+
+    if (!responseResult.success) {
+      console.error("Failed to send email response:", responseResult.error);
+    }
+
+    // Send email notification
+    const emailResult = await sendContactFormEmail({
+      name: validatedData.name,
+      email: validatedData.email,
+      message: validatedData.message.trim(),
+    });
+
+    if (!emailResult.success) {
+      console.error("Failed to send email notification:", emailResult.error);
+    }
 
     return {
       success: true,
       data: {
-        id: contact._id,
+        id: contact._id.toString(),
         name: contact.name,
         email: contact.email,
-        message: contact.message,
+        message: contact.message.trim(),
       },
     };
   } catch (error) {
