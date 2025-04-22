@@ -1,23 +1,16 @@
 "use client";
 
+import { submitContactForm } from "@/actions/contact";
 import { Alert } from "@/components/ui/Alert";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { TextArea } from "@/components/ui/TextArea";
+import { contactFormSchema, type ContactFormData } from "@/schemas/contact";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as Form from "@radix-ui/react-form";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
-
-const contactFormSchema = z.object({
-  name: z.string().min(1, "Name is required"),
-  email: z.string().email("Invalid email address"),
-  message: z.string().min(1, "Message is required"),
-});
-
-type ContactFormData = z.infer<typeof contactFormSchema>;
 
 export function ContactForm() {
   const [formState, setFormState] = useState<
@@ -39,11 +32,14 @@ export function ContactForm() {
     setFormState("submitting");
 
     try {
-      // Simulating API call
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      console.log("Form submitted:", data);
-      setFormState("success");
-      reset();
+      const result = await submitContactForm(data);
+
+      if (result.success) {
+        setFormState("success");
+        reset();
+      } else {
+        setFormState("error");
+      }
     } catch (error) {
       console.error("Error submitting form:", error);
       setFormState("error");
