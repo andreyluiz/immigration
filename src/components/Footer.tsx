@@ -11,6 +11,7 @@ export function Footer() {
   const quickLinks = messages.home.footer.quick_links.links as {
     title: string;
     href: string;
+    target?: string;
   }[];
 
   const socialLinks = messages.home.footer.social.links as {
@@ -38,6 +39,12 @@ export function Footer() {
                   <Link
                     href={link.href}
                     className="text-sm text-foreground/80 hover:text-primary transition-colors"
+                    target={link.target}
+                    rel={
+                      link.target === "_blank"
+                        ? "noopener noreferrer"
+                        : undefined
+                    }
                   >
                     {link.title}
                   </Link>

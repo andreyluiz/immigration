@@ -156,6 +156,16 @@
           {
             "title": "Contato",
             "href": "#contact"
+          },
+          {
+            "title": "Termos e Condições",
+            "href": "/tc-quero-imigrar-pt.pdf",
+            "target": "_blank"
+          },
+          {
+            "title": "Política de Privacidade",
+            "href": "/pp-quero-imigrar-pt.pdf",
+            "target": "_blank"
           }
         ]
       },
