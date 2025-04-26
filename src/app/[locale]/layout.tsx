@@ -1,5 +1,6 @@
 import { CookieBanner } from "@/components/CookieBanner";
 import { routing } from "@/i18n/routing";
+import { GoogleTagManager } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { Inter } from "next/font/google";
@@ -31,6 +32,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
+      <GoogleTagManager gtmId="GTM-5ZBS58ZJ" />
       <body className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider>
           {children}
