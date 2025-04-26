@@ -188,5 +188,10 @@
       },
       "copyright": "European Immigration Mentorship. All rights reserved."
     }
+  },
+  "cookie_consent": {
+    "title": "We use cookies to ensure you get the best experience on our website.",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }

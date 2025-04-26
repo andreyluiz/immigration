@@ -188,5 +188,10 @@
       },
       "copyright": "Mentorat d'Immigration Européenne. Tous droits réservés."
     }
+  },
+  "cookie_consent": {
+    "title": "Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site web.",
+    "accept": "Accepter",
+    "decline": "Refuser"
   }
 }
