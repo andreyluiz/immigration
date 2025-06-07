@@ -1,4 +1,3 @@
-import { Icon } from "@iconify/react";
 import { useMessages, useTranslations } from "next-intl";
 import Link from "next/link";
 import { LanguageSelector } from "./LanguageSelector";
@@ -14,11 +13,11 @@ export function Footer() {
     target?: string;
   }[];
 
-  const socialLinks = messages.home.footer.social.links as {
-    title: string;
-    href: string;
-    icon: string;
-  }[];
+  // const socialLinks = messages.home.footer.social.links as {
+  //   title: string;
+  //   href: string;
+  //   icon: string;
+  // }[];
 
   return (
     <footer className="w-full py-8 bg-muted mt-12 md:px-0 px-4">
@@ -55,7 +54,7 @@ export function Footer() {
 
           <div>
             <h3 className="text-lg font-bold mb-4">{t("social.title")}</h3>
-            <div className="flex gap-4 mb-4">
+            {/* <div className="flex gap-4 mb-4">
               {socialLinks.map((link) => (
                 <a
                   key={link.title}
@@ -65,11 +64,9 @@ export function Footer() {
                   <Icon icon={link.icon} width={20} height={20} />
                 </a>
               ))}
-            </div>
+            </div> */}
             <p className="text-sm text-foreground/80">
-              {t("social.email")}: contact@example.com
-              <br />
-              {t("social.phone")}: +55 11 99999-9999
+              {t("social.email")}: contato@queroimigrar.com.br
             </p>
             <div className="mt-4">
               <LanguageSelector />

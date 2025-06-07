@@ -50,11 +50,7 @@ export function ContactSection() {
             <div className="flex flex-col sm:flex-row gap-4 items-center">
               <div className="flex items-center gap-3">
                 <Icon icon="mdi:email" className="w-6 h-6 text-primary" />
-                <span>contact@example.com</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <Icon icon="mdi:phone" className="w-6 h-6 text-primary" />
-                <span>+55 11 99999-9999</span>
+                <span>contato@queroimigrar.com.br</span>
               </div>
             </div>
           </div>
