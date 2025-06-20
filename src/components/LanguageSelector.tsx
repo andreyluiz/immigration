@@ -18,7 +18,6 @@ interface LanguageOption {
 
 const languages: LanguageOption[] = [
   { value: "en", label: "English", emoji: "🇬🇧" },
-  { value: "fr", label: "Français", emoji: "🇫🇷" },
   { value: "pt", label: "Português", emoji: "🇧🇷" },
 ];
 
