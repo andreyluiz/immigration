@@ -1,12 +1,16 @@
 {
   "home": {
     "nav": {
-      "title": "European Immigration",
+      "title": "Quero Imigrar",
       "services": "Services",
       "about": "About Us",
       "testimonials": "Testimonials",
       "contact": "Contact",
       "get_started": "Get Started"
+    },
+    "banner": {
+      "message": "We provide FREE CV analysis to help you stand out in the European job market!",
+      "cta": "Get My Free Analysis"
     },
     "hero": {
       "title_1": "Your European Dream",
@@ -32,8 +36,8 @@
         },
         {
           "icon": "mdi:briefcase",
-          "title": "Job Search Support",
-          "description": "Receive personalized guidance on finding employment opportunities that match your skills and experience."
+          "title": "Job Search & CV analysis",
+          "description": "Receive personalized guidance on finding employment opportunities that match your skills and experience. We will also help you with your CV analysis and job search."
         },
         {
           "icon": "mdi:home",

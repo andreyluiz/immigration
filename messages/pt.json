@@ -1,12 +1,16 @@
 {
   "home": {
     "nav": {
-      "title": "Imigração Europeia",
+      "title": "Quero Imigrar",
       "services": "Serviços",
       "about": "Sobre Nós",
       "testimonials": "Depoimentos",
       "contact": "Contato",
       "get_started": "Começar Agora"
+    },
+    "banner": {
+      "message": "Oferecemos análise de CV GRATUITA para ajudar você a se destacar no mercado de trabalho europeu!",
+      "cta": "Quero minha análise gratuita"
     },
     "hero": {
       "title_1": "Seu Sonho Europeu",
@@ -32,8 +36,8 @@
         },
         {
           "icon": "mdi:briefcase",
-          "title": "Suporte na Busca por Emprego",
-          "description": "Receba orientação personalizada para encontrar oportunidades de trabalho que correspondam às suas habilidades e experiência."
+          "title": "Busca por Emprego & Análise de CV",
+          "description": "Receba orientação personalizada para encontrar oportunidades de trabalho que correspondam às suas habilidades e experiência. Também ajudamos você com a análise de seu CV e busca por emprego."
         },
         {
           "icon": "mdi:home",

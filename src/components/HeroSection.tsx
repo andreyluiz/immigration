@@ -44,13 +44,6 @@ export function HeroSection() {
                 {t("learn_more")}
               </Link>
             </div>
-
-            <div className="flex items-center gap-2 mt-6">
-              <Icon icon="mdi:check-circle" className="text-accent" />
-              <p className="text-sm text-foreground/70">
-                {t("successful_immigrations", { value: 500 })}
-              </p>
-            </div>
           </div>
 
           <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-xl">
