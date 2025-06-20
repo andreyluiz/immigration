@@ -27,44 +27,6 @@ export function AboutSection() {
 
               <p className="text-foreground/80">{t("description_3")}</p>
             </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-6">
-              <div className="text-center">
-                <span className="text-3xl font-bold text-primary block">
-                  15+
-                </span>
-                <span className="text-sm text-foreground/70">
-                  {t("years_experience")}
-                </span>
-              </div>
-
-              <div className="text-center">
-                <span className="text-3xl font-bold text-primary block">
-                  500+
-                </span>
-                <span className="text-sm text-foreground/70">
-                  {t("clients_served")}
-                </span>
-              </div>
-
-              <div className="text-center">
-                <span className="text-3xl font-bold text-primary block">
-                  98%
-                </span>
-                <span className="text-sm text-foreground/70">
-                  {t("success_rate")}
-                </span>
-              </div>
-
-              <div className="text-center">
-                <span className="text-3xl font-bold text-primary block">
-                  12
-                </span>
-                <span className="text-sm text-foreground/70">
-                  {t("team_members")}
-                </span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
