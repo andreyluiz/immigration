@@ -58,19 +58,26 @@ export const ContactResponse = ({ name }: ContactResponseProps) => {
             <Text style={paragraphStyle}>
               Muito obrigado por entrar em contato conosco! Recebemos sua
               mensagem e estamos muito felizes pelo seu interesse em nosso
-              serviço de mentoria para imigração europeia.
+              serviço de mentoria.
             </Text>
 
             <Text style={paragraphStyle}>
               Nossa equipe está analisando sua mensagem com cuidado e entraremos
               em contato o mais breve possível para discutir como podemos ajudar
-              você a alcançar seu sonho de imigrar para a Europa.
+              você a alcançar seu objetivos.
             </Text>
 
             <Text style={paragraphStyle}>
-              Enquanto isso, fique à vontade para nos seguir nas redes sociais
-              para ficar por dentro das últimas novidades e dicas sobre
-              imigração.
+              Recomendamos que você agende uma conversa com a nossa equipe para
+              esclarecermos eventuais questões.
+              <br />
+              <a href="https://zcal.co/quero-imigrar/30min">
+                Agendar conversa
+              </a>
+            </Text>
+
+            <Text style={paragraphStyle}>
+              Nos vemos em breve!
             </Text>
 
             <div style={signatureContainerStyle}>
