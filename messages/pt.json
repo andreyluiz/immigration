@@ -93,6 +93,28 @@
         }
       ]
     },
+    "how_it_works": {
+      "title": "Como Funciona",
+      "description": "Nosso processo comprovado de 4 etapas te guia por todos os aspectos da sua jornada de imigração, desde o contato inicial até a integração bem-sucedida.",
+      "step1": {
+        "title": "Contato e Avaliação da Situação",
+        "description": "Contato inicial onde entendemos sua situação, avaliamos a complexidade do seu processo de imigração e identificamos todos os requisitos de documentação necessários."
+      },
+      "step2": {
+        "title": "CV e Candidaturas Estratégicas",
+        "description": "Ajudamos a construir seu perfil profissional e te guiamos através de candidaturas estratégicas para garantir oportunidades de emprego na Europa."
+      },
+      "step3": {
+        "title": "Assistência na Chegada",
+        "description": "Após garantir um emprego, auxiliamos com todos os passos burocráticos para viajar e chegar na Suíça, incluindo documentação, busca por apartamento e procedimentos de estabelecimento."
+      },
+      "step4": {
+        "title": "Feedback e Acompanhamento",
+        "description": "Avaliamos continuamente seu progresso e coletamos feedback para garantir sua integração bem-sucedida e suporte contínuo durante sua jornada europeia."
+      },
+      "cta_text": "Pronto para começar sua jornada de imigração?",
+      "cta_button": "Começar Hoje"
+    },
     "contact": {
       "title": "Entre em Contato",
       "description": "Pronto para começar sua jornada de imigração europeia? Entre em contato para agendar uma consulta gratuita com nossos especialistas.",

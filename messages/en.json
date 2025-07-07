@@ -93,6 +93,28 @@
         }
       ]
     },
+    "how_it_works": {
+      "title": "How It Works",
+      "description": "Our proven 4-step process guides you through every aspect of your immigration journey, from initial contact to successful integration.",
+      "step1": {
+        "title": "Contact & Situation Assessment",
+        "description": "Initial contact where we understand your situation, assess the complexity of your immigration process, and identify all necessary documentation requirements."
+      },
+      "step2": {
+        "title": "CV & Strategic Job Applications",
+        "description": "We help build your professional profile and guide you through strategic job applications to secure employment opportunities in Europe."
+      },
+      "step3": {
+        "title": "Arrival Assistance",
+        "description": "After securing a job, we assist with all bureaucratic steps for traveling and arriving in Switzerland, including documentation, apartment hunting, and settlement procedures."
+      },
+      "step4": {
+        "title": "Feedback & Maintenance",
+        "description": "We continuously assess your progress and gather feedback to ensure your successful integration and ongoing support throughout your European journey."
+      },
+      "cta_text": "Ready to start your immigration journey?",
+      "cta_button": "Get Started Today"
+    },
     "contact": {
       "title": "Get in Touch",
       "description": "Ready to start your European immigration journey? Contact us to schedule a free consultation with our experts.",
