@@ -1,233 +1,237 @@
 {
-  "home": {
-    "nav": {
-      "title": "Quero Imigrar",
-      "services": "Serviços",
-      "about": "Sobre Nós",
-      "testimonials": "Depoimentos",
-      "contact": "Contato",
-      "get_started": "Começar Agora"
-    },
-    "banner": {
-      "message": "Oferecemos análise de CV GRATUITA para ajudar você a se destacar no mercado de trabalho europeu!",
-      "cta": "Quero minha análise gratuita"
-    },
-    "hero": {
-      "title_1": "Seu Sonho Europeu",
-      "title_2": "Começa Aqui",
-      "description": "Mentoria profissional de imigração para brasileiros que desejam começar uma nova vida na Europa. Nossa equipe de especialistas te guia em cada etapa da sua jornada.",
-      "get_started": "Começar Agora",
-      "learn_more": "Saiba Mais",
-      "successful_immigrations": "Mais de {value, number}+ imigrações bem-sucedidas"
-    },
-    "services": {
-      "title": "Nossos Serviços de Imigração",
-      "description": "Suporte completo para cada etapa da sua jornada de imigração europeia.",
-      "list": [
-        {
-          "icon": "mdi:passport",
-          "title": "Visto e Documentação",
-          "description": "Te guiamos pelo complexo processo de solicitação de visto e ajudamos a preparar toda a documentação necessária."
-        },
-        {
-          "icon": "mdi:certificate",
-          "title": "Equivalência Educacional",
-          "description": "Receba assistência para validar seus diplomas e certificados brasileiros para reconhecimento europeu."
-        },
-        {
-          "icon": "mdi:briefcase",
-          "title": "Busca por Emprego & Análise de CV",
-          "description": "Receba orientação personalizada para encontrar oportunidades de trabalho que correspondam às suas habilidades e experiência. Também ajudamos você com a análise de seu CV e busca por emprego."
-        },
-        {
-          "icon": "mdi:home",
-          "title": "Assistência para Moradia",
-          "description": "Aprenda como encontrar acomodação e navegar pelo mercado imobiliário no seu país de destino."
-        },
-        {
-          "icon": "mdi:translate",
-          "title": "Soluções para Idioma",
-          "description": "Acesse recursos e estratégias para superar as barreiras linguísticas em seu novo lar europeu."
-        },
-        {
-          "icon": "mdi:account-group",
-          "title": "Integração Cultural",
-          "description": "Prepare-se para as diferenças culturais e aprenda a se adaptar suavemente ao seu novo ambiente."
-        }
-      ]
-    },
-    "about": {
-      "title": "Sobre Nossa Equipe",
-      "description_1": "Fundada por um time de imigrantes Brasileiros, nossa equipe é composta por profissionais, consultores e especialistas em integração cultural que vivenciaram pessoalmente a jornada do Brasil para a Europa.",
-      "description_2": "Entendemos os desafios, complexidades e aspectos emocionais de se mudar para um novo país, e nossa missão é tornar essa transição o mais suave possível para nossos clientes.",
-      "description_3": "Nossa experiência combinada abrange mais de 5 anos de experiência em coletar informações e ajudar brasileiros a estabelecerem novas vidas com sucesso em vários países europeus, incluindo Portugal, Espanha, Alemanha, Itália e França.",
-      "years_experience": "Anos de Experiência",
-      "clients_served": "Clientes Atendidos",
-      "success_rate": "Taxa de Sucesso",
-      "team_members": "Membros da Equipe"
-    },
-    "testimonials": {
-      "title": "Histórias de Sucesso",
-      "description": "Conheça brasileiros que começaram suas novas vidas na Europa com nossa ajuda.",
-      "list": [
-        {
-          "quote": "A orientação que recebi durante todo o meu processo de imigração foi inestimável. Desde as solicitações de visto até encontrar meu primeiro apartamento em Lisboa, a equipe sempre esteve lá para ajudar.",
-          "author": "Carlos Silva",
-          "role": "Engenheiro de Software",
-          "image": "/clients/carlos-silva.webp",
-          "country": "Agora em Portugal"
-        },
-        {
-          "quote": "Como profissional da área da saúde, eu estava preocupada com o reconhecimento das minhas credenciais na Alemanha. Graças a esta mentoria, o processo foi muito mais suave do que eu esperava.",
-          "author": "Ana Oliveira",
-          "role": "Enfermeira",
-          "image": "/clients/ana-oliveira.webp",
-          "country": "Agora na Alemanha"
-        },
-        {
-          "quote": "Mudar toda a minha família para a Espanha parecia assustador no início, mas com orientação especializada sobre escolas, moradia e integração cultural, agora nos sentimos em casa.",
-          "author": "Rafael Mendes",
-          "role": "Empresário",
-          "image": "/clients/rafael-mendes.webp",
-          "country": "Agora na Espanha"
-        }
-      ]
-    },
-    "how_it_works": {
-      "title": "Como Funciona",
-      "description": "Nosso processo comprovado de 4 etapas te guia por todos os aspectos da sua jornada de imigração, desde o contato inicial até a integração bem-sucedida.",
-      "step1": {
-        "title": "Contato e Avaliação da Situação",
-        "description": "Contato inicial onde entendemos sua situação, avaliamos a complexidade do seu processo de imigração e identificamos todos os requisitos de documentação necessários."
-      },
-      "step2": {
-        "title": "CV e Candidaturas Estratégicas",
-        "description": "Ajudamos a construir seu perfil profissional e te guiamos através de candidaturas estratégicas para garantir oportunidades de emprego na Europa."
-      },
-      "step3": {
-        "title": "Assistência na Chegada",
-        "description": "Após garantir um emprego, auxiliamos com todos os passos burocráticos para viajar e chegar na Suíça, incluindo documentação, busca por apartamento e procedimentos de estabelecimento."
-      },
-      "step4": {
-        "title": "Feedback e Acompanhamento",
-        "description": "Avaliamos continuamente seu progresso e coletamos feedback para garantir sua integração bem-sucedida e suporte contínuo durante sua jornada europeia."
-      },
-      "cta_text": "Pronto para começar sua jornada de imigração?",
-      "cta_button": "Começar Hoje"
-    },
-    "contact": {
-      "title": "Entre em Contato",
-      "description": "Pronto para começar sua jornada de imigração europeia? Entre em contato para agendar uma consulta gratuita com nossos especialistas.",
-      "form": {
-        "name": {
-          "label": "Nome",
-          "placeholder": "Seu nome completo"
-        },
-        "email": {
-          "label": "Email",
-          "placeholder": "seu.email@exemplo.com"
-        },
-        "message": {
-          "label": "Mensagem",
-          "placeholder": "Conte-nos sobre seus objetivos de imigração..."
-        },
-        "submit": "Enviar Mensagem",
-        "sending": "Enviando...",
-        "success_message": {
-          "title": "Obrigado por entrar em contato!",
-          "description": "Retornaremos o mais rápido possível.",
-          "action": "Enviar outra mensagem"
-        },
-        "error_message": {
-          "title": "Ocorreu um erro",
-          "description": "Por favor, tente novamente mais tarde ou entre em contato conosco por email ou telefone."
-        }
-      }
-    },
-    "faq": {
-      "title": "Perguntas Frequentes",
-      "questions": [
-        {
-          "question": "Quanto tempo geralmente leva o processo de imigração?",
-          "answer": "O prazo varia dependendo do país de destino e tipo de visto, mas a maioria dos clientes completa sua mudança em 6-12 meses."
-        },
-        {
-          "question": "Preciso falar o idioma local?",
-          "answer": "Embora seja útil, nem sempre é necessário. Podemos orientá-lo sobre os requisitos de idioma e fornecer recursos para aprendizado."
-        },
-        {
-          "question": "Quais são as taxas dos seus serviços?",
-          "answer": "Nossas taxas variam de acordo com a complexidade do seu caso e serviços necessários. Fornecemos um detalhamento claro durante sua consulta gratuita."
-        }
-      ]
-    },
-    "footer": {
-      "title": "Mentoria de Imigração Europeia",
-      "description": "Mentoria profissional para brasileiros que desejam imigrar para a Europa. Oferecemos orientação personalizada para sua jornada de imigração.",
-      "quick_links": {
-        "title": "Links Rápidos",
-        "links": [
-          {
-            "title": "Nossos Serviços",
-            "href": "#services"
-          },
-          {
-            "title": "Sobre Nós",
-            "href": "#about"
-          },
-          {
-            "title": "Histórias de Sucesso",
-            "href": "#testimonials"
-          },
-          {
-            "title": "Contato",
-            "href": "#contact"
-          },
-          {
-            "title": "Termos e Condições",
-            "href": "/tc-quero-imigrar-pt.pdf",
-            "target": "_blank"
-          },
-          {
-            "title": "Política de Privacidade",
-            "href": "/pp-quero-imigrar-pt.pdf",
-            "target": "_blank"
-          }
-        ]
-      },
-      "social": {
-        "title": "Conecte-se Conosco",
-        "links": [
-          {
-            "title": "Instagram",
-            "href": "#instagram",
-            "icon": "mdi:instagram"
-          },
-          {
-            "title": "Facebook",
-            "href": "#facebook",
-            "icon": "mdi:facebook"
-          },
-          {
-            "title": "LinkedIn",
-            "href": "#linkedin",
-            "icon": "mdi:linkedin"
-          },
-          {
-            "title": "WhatsApp",
-            "href": "#whatsapp",
-            "icon": "mdi:whatsapp"
-          }
-        ],
-        "email": "Email",
-        "phone": "Telefone"
-      },
-      "copyright": "Mentoria de Imigração Europeia. Todos os direitos reservados."
-    }
-  },
-  "cookie_consent": {
-    "title": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
-    "accept": "Aceitar",
-    "decline": "Recusar"
-  }
+	"metadata": {
+		"title": "Quero Imigrar",
+		"description": "Mentoria profissional de imigração para brasileiros que desejam começar uma nova vida na Europa. Nossa equipe de especialistas te guia em cada etapa da sua jornada."
+	},
+	"home": {
+		"nav": {
+			"title": "Quero Imigrar",
+			"services": "Serviços",
+			"about": "Sobre Nós",
+			"testimonials": "Depoimentos",
+			"contact": "Contato",
+			"get_started": "Começar Agora"
+		},
+		"banner": {
+			"message": "Oferecemos análise de CV GRATUITA para ajudar você a se destacar no mercado de trabalho europeu!",
+			"cta": "Quero minha análise gratuita"
+		},
+		"hero": {
+			"title_1": "Seu Sonho Europeu",
+			"title_2": "Começa Aqui",
+			"description": "Mentoria profissional de imigração para brasileiros que desejam começar uma nova vida na Europa. Nossa equipe de especialistas te guia em cada etapa da sua jornada.",
+			"get_started": "Começar Agora",
+			"learn_more": "Saiba Mais",
+			"successful_immigrations": "Mais de {value, number}+ imigrações bem-sucedidas"
+		},
+		"services": {
+			"title": "Nossos Serviços de Imigração",
+			"description": "Suporte completo para cada etapa da sua jornada de imigração europeia.",
+			"list": [
+				{
+					"icon": "mdi:passport",
+					"title": "Visto e Documentação",
+					"description": "Te guiamos pelo complexo processo de solicitação de visto e ajudamos a preparar toda a documentação necessária."
+				},
+				{
+					"icon": "mdi:certificate",
+					"title": "Equivalência Educacional",
+					"description": "Receba assistência para validar seus diplomas e certificados brasileiros para reconhecimento europeu."
+				},
+				{
+					"icon": "mdi:briefcase",
+					"title": "Busca por Emprego & Análise de CV",
+					"description": "Receba orientação personalizada para encontrar oportunidades de trabalho que correspondam às suas habilidades e experiência. Também ajudamos você com a análise de seu CV e busca por emprego."
+				},
+				{
+					"icon": "mdi:home",
+					"title": "Assistência para Moradia",
+					"description": "Aprenda como encontrar acomodação e navegar pelo mercado imobiliário no seu país de destino."
+				},
+				{
+					"icon": "mdi:translate",
+					"title": "Soluções para Idioma",
+					"description": "Acesse recursos e estratégias para superar as barreiras linguísticas em seu novo lar europeu."
+				},
+				{
+					"icon": "mdi:account-group",
+					"title": "Integração Cultural",
+					"description": "Prepare-se para as diferenças culturais e aprenda a se adaptar suavemente ao seu novo ambiente."
+				}
+			]
+		},
+		"about": {
+			"title": "Sobre Nossa Equipe",
+			"description_1": "Fundada por um time de imigrantes Brasileiros, nossa equipe é composta por profissionais, consultores e especialistas em integração cultural que vivenciaram pessoalmente a jornada do Brasil para a Europa.",
+			"description_2": "Entendemos os desafios, complexidades e aspectos emocionais de se mudar para um novo país, e nossa missão é tornar essa transição o mais suave possível para nossos clientes.",
+			"description_3": "Nossa experiência combinada abrange mais de 5 anos de experiência em coletar informações e ajudar brasileiros a estabelecerem novas vidas com sucesso em vários países europeus, incluindo Portugal, Espanha, Alemanha, Itália e França.",
+			"years_experience": "Anos de Experiência",
+			"clients_served": "Clientes Atendidos",
+			"success_rate": "Taxa de Sucesso",
+			"team_members": "Membros da Equipe"
+		},
+		"testimonials": {
+			"title": "Histórias de Sucesso",
+			"description": "Conheça brasileiros que começaram suas novas vidas na Europa com nossa ajuda.",
+			"list": [
+				{
+					"quote": "A orientação que recebi durante todo o meu processo de imigração foi inestimável. Desde as solicitações de visto até encontrar meu primeiro apartamento em Lisboa, a equipe sempre esteve lá para ajudar.",
+					"author": "Carlos Silva",
+					"role": "Engenheiro de Software",
+					"image": "/clients/carlos-silva.webp",
+					"country": "Agora em Portugal"
+				},
+				{
+					"quote": "Como profissional da área da saúde, eu estava preocupada com o reconhecimento das minhas credenciais na Alemanha. Graças a esta mentoria, o processo foi muito mais suave do que eu esperava.",
+					"author": "Ana Oliveira",
+					"role": "Enfermeira",
+					"image": "/clients/ana-oliveira.webp",
+					"country": "Agora na Alemanha"
+				},
+				{
+					"quote": "Mudar toda a minha família para a Espanha parecia assustador no início, mas com orientação especializada sobre escolas, moradia e integração cultural, agora nos sentimos em casa.",
+					"author": "Rafael Mendes",
+					"role": "Empresário",
+					"image": "/clients/rafael-mendes.webp",
+					"country": "Agora na Espanha"
+				}
+			]
+		},
+		"how_it_works": {
+			"title": "Como Funciona",
+			"description": "Nosso processo comprovado de 4 etapas te guia por todos os aspectos da sua jornada de imigração, desde o contato inicial até a integração bem-sucedida.",
+			"step1": {
+				"title": "Contato e Avaliação da Situação",
+				"description": "Contato inicial onde entendemos sua situação, avaliamos a complexidade do seu processo de imigração e identificamos todos os requisitos de documentação necessários."
+			},
+			"step2": {
+				"title": "CV e Candidaturas Estratégicas",
+				"description": "Ajudamos a construir seu perfil profissional e te guiamos através de candidaturas estratégicas para garantir oportunidades de emprego na Europa."
+			},
+			"step3": {
+				"title": "Assistência na Chegada",
+				"description": "Após garantir um emprego, auxiliamos com todos os passos burocráticos para viajar e chegar na Suíça, incluindo documentação, busca por apartamento e procedimentos de estabelecimento."
+			},
+			"step4": {
+				"title": "Feedback e Acompanhamento",
+				"description": "Avaliamos continuamente seu progresso e coletamos feedback para garantir sua integração bem-sucedida e suporte contínuo durante sua jornada europeia."
+			},
+			"cta_text": "Pronto para começar sua jornada de imigração?",
+			"cta_button": "Começar Hoje"
+		},
+		"contact": {
+			"title": "Entre em Contato",
+			"description": "Pronto para começar sua jornada de imigração europeia? Entre em contato para agendar uma consulta gratuita com nossos especialistas.",
+			"form": {
+				"name": {
+					"label": "Nome",
+					"placeholder": "Seu nome completo"
+				},
+				"email": {
+					"label": "Email",
+					"placeholder": "seu.email@exemplo.com"
+				},
+				"message": {
+					"label": "Mensagem",
+					"placeholder": "Conte-nos sobre seus objetivos de imigração..."
+				},
+				"submit": "Enviar Mensagem",
+				"sending": "Enviando...",
+				"success_message": {
+					"title": "Obrigado por entrar em contato!",
+					"description": "Retornaremos o mais rápido possível.",
+					"action": "Enviar outra mensagem"
+				},
+				"error_message": {
+					"title": "Ocorreu um erro",
+					"description": "Por favor, tente novamente mais tarde ou entre em contato conosco por email ou telefone."
+				}
+			}
+		},
+		"faq": {
+			"title": "Perguntas Frequentes",
+			"questions": [
+				{
+					"question": "Quanto tempo geralmente leva o processo de imigração?",
+					"answer": "O prazo varia dependendo do país de destino e tipo de visto, mas a maioria dos clientes completa sua mudança em 6-12 meses."
+				},
+				{
+					"question": "Preciso falar o idioma local?",
+					"answer": "Embora seja útil, nem sempre é necessário. Podemos orientá-lo sobre os requisitos de idioma e fornecer recursos para aprendizado."
+				},
+				{
+					"question": "Quais são as taxas dos seus serviços?",
+					"answer": "Nossas taxas variam de acordo com a complexidade do seu caso e serviços necessários. Fornecemos um detalhamento claro durante sua consulta gratuita."
+				}
+			]
+		},
+		"footer": {
+			"title": "Mentoria de Imigração Europeia",
+			"description": "Mentoria profissional para brasileiros que desejam imigrar para a Europa. Oferecemos orientação personalizada para sua jornada de imigração.",
+			"quick_links": {
+				"title": "Links Rápidos",
+				"links": [
+					{
+						"title": "Nossos Serviços",
+						"href": "#services"
+					},
+					{
+						"title": "Sobre Nós",
+						"href": "#about"
+					},
+					{
+						"title": "Histórias de Sucesso",
+						"href": "#testimonials"
+					},
+					{
+						"title": "Contato",
+						"href": "#contact"
+					},
+					{
+						"title": "Termos e Condições",
+						"href": "/tc-quero-imigrar-pt.pdf",
+						"target": "_blank"
+					},
+					{
+						"title": "Política de Privacidade",
+						"href": "/pp-quero-imigrar-pt.pdf",
+						"target": "_blank"
+					}
+				]
+			},
+			"social": {
+				"title": "Conecte-se Conosco",
+				"links": [
+					{
+						"title": "Instagram",
+						"href": "#instagram",
+						"icon": "mdi:instagram"
+					},
+					{
+						"title": "Facebook",
+						"href": "#facebook",
+						"icon": "mdi:facebook"
+					},
+					{
+						"title": "LinkedIn",
+						"href": "#linkedin",
+						"icon": "mdi:linkedin"
+					},
+					{
+						"title": "WhatsApp",
+						"href": "#whatsapp",
+						"icon": "mdi:whatsapp"
+					}
+				],
+				"email": "Email",
+				"phone": "Telefone"
+			},
+			"copyright": "Mentoria de Imigração Europeia. Todos os direitos reservados."
+		}
+	},
+	"cookie_consent": {
+		"title": "Usamos cookies para garantir que você obtenha a melhor experiência no nosso site.",
+		"accept": "Aceitar",
+		"decline": "Recusar"
+	}
 }
