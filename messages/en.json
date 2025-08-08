@@ -9,6 +9,7 @@
 			"services": "Services",
 			"about": "About Us",
 			"testimonials": "Testimonials",
+			"pricing": "Pricing",
 			"contact": "Contact",
 			"get_started": "Get Started"
 		},
@@ -165,6 +166,62 @@
 				}
 			]
 		},
+		"pricing": {
+			"title": "Service Description",
+			"professional_services_badge": "Professional Services",
+			"overview": {
+				"title": "Overview",
+				"description": "Quero Imigrar offers complete support for professionals who want to work and live in Switzerland. Our service covers everything from preparing a competitive professional profile to definitive settlement in the country."
+			},
+			"packages": [
+				{
+					"title": "Package 1: Professional Profile Creation",
+					"description": "✓ Development or revision of your resume\n✓ LinkedIn profile optimization\n✓ Guidance on job applications aligned with your career objectives",
+					"price": "200 EUR",
+					"payment": "per person paid in advance",
+					"icon": "mdi:account-edit"
+				},
+				{
+					"title": "Package 2: Visa and Moving Support",
+					"description": "✓ Detailed visa information after job offer\n✓ Document preparation assistance\n✓ Logistical planning for your move to Switzerland",
+					"price": "200 EUR",
+					"payment": "per person after employment confirmation",
+					"icon": "mdi:passport"
+				},
+				{
+					"title": "Package 3: Arrival Support",
+					"description": "✓ Commune registration assistance\n✓ Health plan selection guidance\n✓ Mandatory insurance guidance\n✓ Residence permit application support",
+					"price": "300 EUR",
+					"payment": "per person paid upon arrival in the country",
+					"icon": "mdi:home-account"
+				}
+			],
+			"extras": {
+				"title": "Additional Services",
+				"description": "✓ Language support to facilitate integration\n✓ Weekly conversation classes\n✓ Practical exercises with partner teachers",
+				"price": "50 EUR",
+				"payment": "per person per month",
+				"icon": "mdi:translate"
+			},
+			"premium_addon": {
+				"title": "Premium Add-On",
+				"description": "Take your journey to the next level with our comprehensive support package"
+			},
+			"why_choose": {
+				"title": "Why Choose Quero Imigrar",
+				"reasons": [
+					"Personalized service provided by bilingual consultants with experience in immigration, employment, and social integration",
+					"Network of partners in recruitment, languages, health, and insurance",
+					"Transparent pricing and well-defined stages"
+				]
+			},
+			"next_steps": {
+				"title": "Next Steps",
+				"description": "Contact us to schedule a free initial consultation and learn how we can accelerate your project to move to Switzerland.",
+				"email": "contato@queroimigrar.com.br",
+				"cta": "Schedule free consultation"
+			}
+		},
 		"footer": {
 			"title": "European Immigration Mentorship",
 			"description": "Professional mentorship for Brazilians looking to immigrate to Europe. We provide personalized guidance for your immigration journey.",
@@ -182,6 +239,10 @@
 					{
 						"title": "Success Stories",
 						"href": "#testimonials"
+					},
+					{
+						"title": "Pricing",
+						"href": "/pricing"
 					},
 					{
 						"title": "Contact Us",

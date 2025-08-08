@@ -9,6 +9,7 @@
 			"services": "Serviços",
 			"about": "Sobre Nós",
 			"testimonials": "Depoimentos",
+			"pricing": "Preços",
 			"contact": "Contato",
 			"get_started": "Começar Agora"
 		},
@@ -165,6 +166,62 @@
 				}
 			]
 		},
+		"pricing": {
+			"title": "Descrição de Serviços",
+			"professional_services_badge": "Serviços Profissionais",
+			"overview": {
+				"title": "Visão geral",
+				"description": "A Quero Imigrar oferece suporte completo para profissionais que desejam trabalhar e viver na Suíça. Nosso atendimento abrange desde a preparação de um perfil profissional competitivo até a instalação definitiva no país."
+			},
+			"packages": [
+				{
+					"title": "Pacote 1: Criação de Perfil Profissional",
+					"description": "✓ Elaboração ou revisão do seu currículo\n✓ Otimização do perfil no LinkedIn\n✓ Orientação sobre candidaturas alinhadas ao seu objetivo de carreira",
+					"price": "200 EUR",
+					"payment": "por pessoa pagos antecipadamente",
+					"icon": "mdi:account-edit"
+				},
+				{
+					"title": "Pacote 2: Suporte de Visto e Mudança",
+					"description": "✓ Informações detalhadas sobre vistos após oferta de emprego\n✓ Preparação de documentos necessários\n✓ Planejamento logístico da mudança para a Suíça",
+					"price": "200 EUR",
+					"payment": "por pessoa após a confirmação do emprego",
+					"icon": "mdi:passport"
+				},
+				{
+					"title": "Pacote 3: Acompanhamento na Chegada",
+					"description": "✓ Acompanhamento no processo de registro na commune\n✓ Ajuda na escolha do plano de saúde adequado\n✓ Orientação sobre seguros obrigatórios\n✓ Suporte na solicitação do permis de séjour",
+					"price": "300 EUR",
+					"payment": "por pessoa pagos na chegada ao país",
+					"icon": "mdi:home-account"
+				}
+			],
+			"extras": {
+				"title": "Serviços extras",
+				"description": "✓ Apoio em idiomas para facilitar a integração\n✓ Aulas semanais de conversação\n✓ Exercícios práticos com professor parceiro",
+				"price": "50 EUR",
+				"payment": "por pessoa por mês",
+				"icon": "mdi:translate"
+			},
+			"premium_addon": {
+				"title": "Complemento Premium",
+				"description": "Leve sua jornada para o próximo nível com nosso pacote de suporte abrangente"
+			},
+			"why_choose": {
+				"title": "Por que escolher a Quero Imigrar",
+				"reasons": [
+					"Atendimento personalizado realizado por consultores bilíngues com experiência em imigração, emprego e integração social",
+					"Rede de parceiros em recrutamento, línguas, saúde e seguros",
+					"Transparência de valores e etapas bem definidas"
+				]
+			},
+			"next_steps": {
+				"title": "Próximos passos",
+				"description": "Entre em contato conosco para agendar uma consulta inicial gratuita e saber como podemos acelerar seu projeto de mudança para a Suíça.",
+				"email": "contato@queroimigrar.com.br",
+				"cta": "Agendar consulta gratuita"
+			}
+		},
 		"footer": {
 			"title": "Mentoria de Imigração Europeia",
 			"description": "Mentoria profissional para brasileiros que desejam imigrar para a Europa. Oferecemos orientação personalizada para sua jornada de imigração.",
@@ -182,6 +239,10 @@
 					{
 						"title": "Histórias de Sucesso",
 						"href": "#testimonials"
+					},
+					{
+						"title": "Preços",
+						"href": "/pricing"
 					},
 					{
 						"title": "Contato",
