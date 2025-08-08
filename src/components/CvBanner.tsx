@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/Button";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { useTranslations } from "next-intl";
+import { Button } from "@/components/ui/Button";
 
 export function CvBanner() {
 	const t = useTranslations("home.banner");
@@ -9,7 +9,10 @@ export function CvBanner() {
 		<div className="w-full bg-blue-600 text-white py-3 px-4 md:px-8">
 			<div className="container mx-auto flex flex-col items-center justify-center gap-2 text-center">
 				<div className="flex items-center gap-2">
-					<Icon icon="mdi:file-document" className="w-6 h-6 text-white md:visible invisible" />
+					<Icon
+						icon="mdi:file-document"
+						className="w-6 h-6 text-white md:visible invisible"
+					/>
 					<span className="text-sm md:text-base font-medium">
 						{t("message")}
 					</span>

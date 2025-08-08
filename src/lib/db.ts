@@ -3,55 +3,59 @@ import mongoose from "mongoose";
 const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
-  throw new Error(
-    "Please define the MONGODB_URI environment variable inside .env"
-  );
+	throw new Error(
+		"Please define the MONGODB_URI environment variable inside .env",
+	);
 }
 
 interface MongooseCache {
-  conn: typeof mongoose | null;
-  promise: Promise<typeof mongoose> | null;
+	conn: typeof mongoose | null;
+	promise: Promise<typeof mongoose> | null;
 }
 
 // Extend the globalThis type
 declare global {
-  interface Global {
-    mongoose: MongooseCache;
-  }
+	interface Global {
+		mongoose: MongooseCache;
+	}
 }
 
 const globalWithMongoose = global as typeof global & {
-  mongoose: MongooseCache;
+	mongoose: MongooseCache;
 };
 
 let cached = globalWithMongoose.mongoose;
 
 if (!cached) {
-  cached = globalWithMongoose.mongoose = { conn: null, promise: null };
+	cached = globalWithMongoose.mongoose = { conn: null, promise: null };
 }
 
 export async function connectToDatabase() {
-  if (cached.conn) {
-    return cached.conn;
-  }
+	if (!MONGODB_URI) {
+		throw new Error("Please define the MONGODB_URI environment variable.");
+	}
 
-  if (!cached.promise) {
-    const opts = {
-      bufferCommands: false,
-      dbName: process.env.MONGODB_DB,
-    };
+	if (cached.conn) {
+		return cached.conn;
+	}
 
-    cached.promise = mongoose.connect(MONGODB_URI!, opts).then((mongoose) => {
-      return mongoose;
-    });
-  }
+	if (!cached.promise) {
+		const opts = {
+			bufferCommands: false,
+			dbName: process.env.MONGODB_DB,
+		};
 
-  try {
-    cached.conn = await cached.promise;
-  } catch (e) {
-    cached.promise = null;
-    throw e;
-  }
+		cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => {
+			return mongoose;
+		});
+	}
 
-  return cached.conn;
+	try {
+		cached.conn = await cached.promise;
+	} catch (e) {
+		cached.promise = null;
+		throw e;
+	}
+
+	return cached.conn;
 }

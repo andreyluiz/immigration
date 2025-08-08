@@ -9,21 +9,21 @@ import { ServicesSection } from "@/components/ServicesSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 
 export default function Home() {
-  return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <CvBanner />
+	return (
+		<div className="flex flex-col min-h-screen">
+			<Header />
+			<CvBanner />
 
-      <main className="flex-grow">
-        <HeroSection />
-        <ServicesSection />
-        <HowItWorksSection />
-        <AboutSection />
-        <TestimonialsSection />
-        <ContactSection />
-      </main>
+			<main className="flex-grow">
+				<HeroSection />
+				<ServicesSection />
+				<HowItWorksSection />
+				<AboutSection />
+				<TestimonialsSection />
+				<ContactSection />
+			</main>
 
-      <Footer />
-    </div>
-  );
+			<Footer />
+		</div>
+	);
 }
