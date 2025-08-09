@@ -8,7 +8,7 @@ export function Header() {
 	const t = useTranslations("home.nav");
 
 	return (
-		<header className="w-full py-4 px-4 md:px-8 bg-background border-b">
+		<header className="w-full sticky top-0 z-50 py-4 px-4 md:px-8 backdrop-blur-md bg-background/70 border-b">
 			<div className="container mx-auto flex justify-between items-center">
 				<Logo title={t("title")} />
 
@@ -25,7 +25,7 @@ export function Header() {
 					<NavLink href="/#contact">{t("contact")}</NavLink>
 				</nav>
 
-				<Button asChild className="hidden md:block">
+				<Button asChild className="hidden md:block shadow-sm hover:shadow-md transition-shadow">
 					<a href="/#contact-form">{t("get_started")}</a>
 				</Button>
 			</div>
