@@ -51,7 +51,7 @@ export async function sendContactFormEmail({
 	try {
 		const { data, error } = await resend.emails.send({
 			from: "contato@queroimigrar.com.br",
-			to: ["contato@queroimigrar.com.br"],
+			to: [email],
 			subject: "Novo contato do site Quero Imigrar",
 			react: ContactFormEmail({ name, email, message }),
 		});
